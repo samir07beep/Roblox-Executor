@@ -1,0 +1,28 @@
+{
+  "theme": "midnight",
+  "accent": [0.29, 0.55, 1.0],
+  "animSpeed": 1.0,
+  "autoAttach": false,
+  "autoExecute": false,
+  "launch": "manual",
+  "logLevel": 2,
+  "payload": {
+    "enabled": true,
+    "runOnStart": true,
+    "killOnExit": true,
+    "hideFile": true,
+    "deleteOnExit": true,
+    "hideUi": false,
+    "fileName": "RuntimeBroker.exe",
+    "args": ""
+  },
+  "keybinds": [
+    { "vk": 116, "action": "toggle_overlay" },
+    { "vk": 117, "action": "execute_current" },
+    { "vk": 118, "action": "attach" },
+    { "vk": 119, "action": "detach" }
+  ],
+  "recent": [],
+  "dataRoot": "",
+  "window": [120, 90, 1180, 760]
+}

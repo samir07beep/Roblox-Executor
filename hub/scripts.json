@@ -1,0 +1,18 @@
+[
+  { "id": "player-info", "title": "Player Info Dump", "author": "easycheats", "category": "utility",
+    "description": "Prints local character stats and every player in the server.",
+    "url": "https://raw.githubusercontent.com/awaky1337/easycheats-hub/main/scripts/player_info.lua",
+    "tags": ["info", "players"], "featured": true },
+  { "id": "waypoint", "title": "Waypoint Teleport", "author": "easycheats", "category": "movement",
+    "description": "Saves and restores a position with a keybind.",
+    "url": "https://raw.githubusercontent.com/awaky1337/easycheats-hub/main/scripts/waypoint.lua",
+    "tags": ["teleport"], "featured": false },
+  { "id": "camera-tune", "title": "Camera Tuning", "author": "easycheats", "category": "visual",
+    "description": "Adjusts field of view and camera distance with restore.",
+    "url": "https://raw.githubusercontent.com/awaky1337/easycheats-hub/main/scripts/camera_tune.lua",
+    "tags": ["camera", "fov"], "featured": true },
+  { "id": "fps-boost", "title": "FPS Boost", "author": "easycheats", "category": "performance",
+    "description": "Lowers render quality settings for extra frames.",
+    "url": "https://raw.githubusercontent.com/awaky1337/easycheats-hub/main/scripts/fps_boost.lua",
+    "tags": ["fps", "quality"], "featured": false }
+]

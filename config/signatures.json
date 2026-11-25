@@ -1,0 +1,19 @@
+{
+  "version": "1",
+  "patterns": [
+    { "name": "get_global_state", "bytes": "48 8B 05 ? ? ? ? 48 8B 88 ? ? ? ? 48 8B 01", "offsets": [3] },
+    { "name": "lua_newthread",    "bytes": "48 89 5C 24 ? 57 48 83 EC 20 48 8B D9 E8", "offsets": [] },
+    { "name": "luau_load",        "bytes": "48 89 5C 24 ? 55 56 57 41 56 41 57", "offsets": [] },
+    { "name": "lua_pcall",        "bytes": "48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 56", "offsets": [] },
+    { "name": "lua_sethook",      "bytes": "48 85 D2 74 ? 48 89 5C 24 ? 48 89 74 24", "offsets": [] },
+    { "name": "lua_pushcclosure", "bytes": "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC 30 48 8B D9 8B FA", "offsets": [] },
+    { "name": "lua_setglobal",    "bytes": "48 85 D2 74 ? 48 89 5C 24 ? 57 48 83 EC 20 48 8B D9", "offsets": [] },
+    { "name": "lua_getglobal",    "bytes": "48 85 D2 74 ? 48 89 5C 24 ? 57 48 83 EC 20 48 8B D9 48 8B F9", "offsets": [] },
+    { "name": "lua_tolstring",    "bytes": "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 41 56 41 57 48 83 EC 20", "offsets": [] },
+    { "name": "lua_pushvalue",    "bytes": "48 89 5C 24 ? 57 48 83 EC 20 48 63 DA 48 8B F9 48 83 FB F7", "offsets": [] },
+    { "name": "lua_replace",      "bytes": "48 89 5C 24 ? 57 48 83 EC 20 48 8B F9 48 63 DA", "offsets": [] },
+    { "name": "lua_settop",       "bytes": "48 89 5C 24 ? 57 48 83 EC 20 48 8B F9 8B DA 85 D2 78", "offsets": [] },
+    { "name": "lua_gettop",       "bytes": "48 8B 49 ? 48 8B 41 ? 48 2B 41 ? 48 C1 F8 04 C3", "offsets": [] },
+    { "name": "lua_xmove",        "bytes": "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC 20 48 8B F2 4C 8B F1 41 8B D8", "offsets": [] }
+  ]
+}
